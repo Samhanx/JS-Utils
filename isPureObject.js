@@ -7,21 +7,21 @@ const toString = Object.prototype.toString
  * @return {boolean} Returns `true` if `value` is a pure object, else `false`.
  * @example
  *
- * isObject({})
+ * isPureObject({})
  * // => true
  *
- * isObject([])
+ * isPureObject([])
  * // => false
  *
- * isObject(Function)
+ * isPureObject(Function)
  * // => false
  *
- * isObject(null)
+ * isPureObject(null)
  * // => false
  */
-function isObject(value) {
+function isPureObject(value) {
   const tag = toString.call(value)
   return tag === '[object Object]'
 }
 
-export default isObject
+export default isPureObject
