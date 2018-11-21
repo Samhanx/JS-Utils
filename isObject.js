@@ -2,7 +2,7 @@
  * Check that if `value` is one of these types:
  * array, object, function, date, regexe, `new Number()`, `new String()`
  * @param {*} value The value to check.
- * @returns {boolean} Returns `true` if `value` is an object, else `false`.
+ * @return {boolean} Returns `true` if `value` is an object, else `false`.
  * @example
  *
  * isObject({})

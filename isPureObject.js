@@ -4,7 +4,7 @@ const toString = Object.prototype.toString
  * Check that if `value` is a pure object, not these types:
  * array, function, date, regexe, `new Number()`, `new String()`
  * @param {*} value The value to check.
- * @returns {boolean} Returns `true` if `value` is a pure object, else `false`.
+ * @return {boolean} Returns `true` if `value` is a pure object, else `false`.
  * @example
  *
  * isObject({})
