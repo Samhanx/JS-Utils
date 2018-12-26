@@ -1,4 +1,15 @@
-// 12345 => 12,345  123456 => 123,456
+/**
+ * Return an U.S. styled number
+ * @param {number} number - The number to format.
+ * @return {string}
+ * @example
+ *
+ * usStyledNumber(12345)
+ * // => '12,345'
+ *
+ * usStyledNumber(123456)
+ * // => '123,456'
+ */
 export function usStyledNumber(number) {
   let numStr = '0'
   number = parseInt(number)
