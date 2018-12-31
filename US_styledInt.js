@@ -1,16 +1,16 @@
 /**
- * Return an U.S. styled number
+ * Return an U.S. styled int number
  * @param {number} number - The number to format.
  * @return {string}
  * @example
  *
- * usStyledNumber(12345)
+ * usStyledInt(12345)
  * // => '12,345'
  *
- * usStyledNumber(123456)
+ * usStyledInt(123456)
  * // => '123,456'
  */
-export function usStyledNumber(number) {
+export function usStyledInt(number) {
   let numStr = '0'
   number = parseInt(number)
   if (number && Number.toLocaleString) {
